@@ -1,5 +1,5 @@
-const Joi = require('joi');
 const mongoose = require('mongoose');
+const Joi = require('@hapi/joi');
 
 const Rental = mongoose.model('Rental', new mongoose.Schema({
   customer: { 
@@ -56,12 +56,12 @@ const Rental = mongoose.model('Rental', new mongoose.Schema({
 }));
 
 function validateRental(rental) {
-  const schema = {
+  const schema = Joi.object().keys({
     customerId: Joi.string().required(),
     movieId: Joi.string().required()
-  };
+  });
 
-  return Joi.validate(rental, schema);
+  return schema.validate(rental);
 }
 
 exports.Rental = Rental; 

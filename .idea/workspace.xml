@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8267dee0-69aa-4552-a4c1-df5cce56d5b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/middleware/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/custom-environment-variables.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/genres.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/genres.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +41,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../node.js demo/models/post.js" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -55,7 +64,11 @@
       <option name="presentableId" value="Default" />
       <updated>1586977596593</updated>
       <workItem from="1586977597991" duration="1610000" />
-      <workItem from="1586979885278" duration="3992000" />
+      <workItem from="1586979885278" duration="4347000" />
+      <workItem from="1587063625932" duration="5770000" />
+      <workItem from="1587141126614" duration="415000" />
+      <workItem from="1587141551081" duration="495000" />
+      <workItem from="1587142054060" duration="6887000" />
     </task>
     <task id="LOCAL-00001" summary="Users model">
       <created>1586986888024</created>
@@ -64,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586986888024</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Users model">
+      <created>1586987806743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586987806743</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,10 +95,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Users model" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1586986887342">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1587067984697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586986887342" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1587067984697" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1586987805751">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586987805751" />
     <state x="147" y="64" key="DiffContextDialog" timestamp="1586986871386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -111,9 +135,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1492" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586979872507" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1586986889961">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1586987808529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586986889961" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586987808529" />
+    <state x="209" y="115" key="new project wizard" timestamp="1587067994600">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="115" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1587067994600" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587145544206">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587145544206" />
   </component>
 </project>
